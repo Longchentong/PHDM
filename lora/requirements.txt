@@ -1,0 +1,17 @@
+# Install a CUDA-compatible PyTorch build separately.
+transformers==4.50.0
+peft==0.15.2
+accelerate==1.10.1
+datasets==4.2.0
+huggingface-hub==0.35.3
+tokenizers==0.21.4
+sentencepiece==0.2.1
+protobuf==4.25.8
+safetensors==0.6.2
+numpy==1.26.4
+tqdm==4.67.1
+fire==0.7.1
+packaging>=23.0
+
+# Optional experiment tracking:
+# wandb==0.22.2

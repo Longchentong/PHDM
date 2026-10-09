@@ -1,0 +1,10 @@
+# Main-table runtime: Python 3.10 and the CUDA 12.1 PyTorch build.
+--extra-index-url https://download.pytorch.org/whl/cu121
+torch==2.5.1+cu121
+numpy==1.26.4
+scipy==1.15.3
+scikit-learn==1.4.2
+networkx==3.2.1
+joblib==1.4.2
+threadpoolctl==3.5.0
+tqdm==4.67.1
