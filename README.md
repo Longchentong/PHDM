@@ -1,7 +1,5 @@
 # Manifold Embedding: A Point-to-Hyperplane Approach
 
-**Xianglong Shi, Yunhan Jiang, Nicu Sebe, and Ziheng Chen**
-
 ## Abstract
 
 Neural networks over non-Euclidean manifolds have attracted increasing attention across various applications. A fundamental step in these networks is to map Euclidean features onto a target manifold. Existing methods mainly use exponential maps and projections, operate through tangent or ambient Euclidean spaces, and may therefore distort intrinsic manifold geometry. On the other hand, point-to-hyperplane distances have recently shown great success in building manifold-valued networks. Based on this, we propose the Point-to-Hyperplane Distance Map (PHDM), a parameter-free mapping that extends Euclidean fully connected layers to Euclidean-to-manifold transformations. Specifically, the exponential map is recovered as a pseudo-distance-based special case. We manifest PHDM on the Lorentz, Poincare, spherical, and projected-spherical models, covering both negative and positive curvature. Experiments on arithmetic reasoning across four LLMs, image classification, graph node classification, and link prediction demonstrate consistent improvements over the corresponding baselines.
